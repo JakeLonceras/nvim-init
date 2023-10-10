@@ -24,5 +24,6 @@ require('lazy').setup {
   get_config { plugin = require 'user.reiend.plugins.everforest' },
   get_config { plugin = require 'user.reiend.plugins.nvim-treesitter' },
   get_config { plugin = require 'user.reiend.plugins.efmls-configs-nvim' },
+  get_config { plugin = require 'user.reiend.plugins.telescope' },
 }
 
