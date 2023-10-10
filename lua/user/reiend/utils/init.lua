@@ -1,4 +1,5 @@
 return {
+  keymap  = vim.keymap.set,
   package_manager = {
     lazy = {
       get_config = function(data)

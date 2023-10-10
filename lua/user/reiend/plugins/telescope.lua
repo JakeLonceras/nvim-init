@@ -3,7 +3,7 @@ return {
   tag = '0.1.2',
   lazy = false,
   dependencies = {
-    require('lua.user.reiend.plugins.planery').name,
+    require('user.reiend.plugins.planery').name,
   },
   config = function()
     local status_ok, builtin = pcall(require, 'telescope.builtin')

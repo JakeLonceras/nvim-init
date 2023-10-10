@@ -1,9 +1,9 @@
 return {
   name = 'creativenull/efmls-configs-nvim',
   dependencies = {
-    require('lua.user.reiend.plugins.nvim-lspconfig').name,
+    require('user.reiend.plugins.nvim-lspconfig').name,
   },
-        tag = 'v0.1.3',
+  tag = 'v0.1.3',
   lazy = false,
   config = function()
     local status_ok, plugin = pcall(require, 'cmp')
@@ -12,9 +12,7 @@ return {
       return
     end
 
-    plugin.setup {
-
-    }
+    plugin.setup {}
   end,
 }
 
