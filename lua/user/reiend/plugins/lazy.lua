@@ -20,9 +20,11 @@ require('lazy').setup {
   get_config { plugin = require 'user.reiend.plugins.nvim-autopairs' },
   get_config { plugin = require 'user.reiend.plugins.mason' },
   get_config { plugin = require 'user.reiend.plugins.mason-lspconfig' },
-  get_config { plugin = require 'user.reiend.plugins.nvim-cmp' },
+  -- get_config { plugin = require 'user.reiend.plugins.nvim-cmp' },
   get_config { plugin = require 'user.reiend.plugins.everforest' },
   get_config { plugin = require 'user.reiend.plugins.nvim-treesitter' },
   get_config { plugin = require 'user.reiend.plugins.efmls-configs-nvim' },
+  get_config { plugin = require 'user.reiend.plugins.telescope' },
+  get_config { plugin = require 'user.reiend.plugins.lualine' },
 }
 
